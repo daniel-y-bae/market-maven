@@ -339,7 +339,7 @@ PROPERTIES = {
         ],
     },
     'AREAPCT_URBAN': {
-        'classes': [-0.1, 0.5, 0.9, 1.2, 1.5, 5.0, 40, 100.0],
+        'classes': [-0.1, 0.5, 0.9, 1.2, 1.5, 5.0, 40, 70],
         'color_scale': [
             '#FFEDA0', 
             '#FED976', 
