@@ -53,7 +53,7 @@ $ cd market-maven
 3. Create a Python virtual environment (inside Market Maven's root directory):
 
 ```
-    $ python -m venv .venv
+$ python -m venv .venv
 ```
 
 4. Activate the virtual environment:
@@ -73,7 +73,7 @@ $ source .venv/bin/activate
 5. Install Market Maven's software dependencies:
 
 ```
-    $ pip install --user -r requirements.txt
+$ pip install --user -r requirements.txt
 ```
 
 Congratulations! Market Maven is now set up and ready for execution.
@@ -90,7 +90,7 @@ From the computer's command line or terminal:
 1. Launch Market Maven:
 
 ```
-    $ python index.py
+$ python index.py
 ```
 
 2. View Market Maven in an internet browser by visiting the following URL: http://127.0.0.1:8050
