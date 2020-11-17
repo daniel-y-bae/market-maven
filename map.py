@@ -126,7 +126,7 @@ PROPERTIES = {
         ],
     },
     'COMMUTE_TIME_IN_MIN': {
-        'classes': [0, 5, 10, 15, 20, 25, 30, 50],
+        'classes': [0, 5, 10, 15, 20, 25, 30, 35],
         'color_scale': [
             '#FFEDA0', 
             '#FED976', 
