@@ -656,6 +656,8 @@ try:
 except:
     print(f'Error opening db: {ASSETS["db"]}')
 
+conn.close()
+
 # ==============================
 # UTILITIES
 # ==============================

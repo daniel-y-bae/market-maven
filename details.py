@@ -21,6 +21,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 conn = sqlite3.connect(os.path.join(ROOT_DIR, 'assets', 'market_maven.sqlite'))
 df_metrics = pd.read_sql_query(''' select * from metrics_v''', conn)
 df_similar_counties = pd.read_sql_query(''' select * from similar_counties_v''', conn)
+conn.close()
 
 
 #dict of dropdown options; key = state, values = counties
