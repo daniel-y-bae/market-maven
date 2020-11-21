@@ -67,6 +67,12 @@ This application's directory structure and contents are described below for easy
             * state-geocodes-v2010.csv: List of U.S. state identifier codes (e.g., FIPS, Region, etc.). Derived from U.S. Census.
             * 2019_Gaz_counties_national.txt: Total land and water area (in square miles) by U.S. county. Derived from 2019 Gazetteer File.
 
+        /experiments: Data and analysis for the experiments for our project. These experiments include: (1) a user survey and (2) cluster analysis.
+            * Market Maven - Experiments and Evaluation: Experiments, evaluation, and results from analysis of user survey research.
+            * Market Maven - Group A Instructions.pdf: Protocol for user survey research (Group A).
+            * Market Maven - Group B Instructions.pdf: Protocol for user survey research (Group B).
+            * pca_experimentation.ipynb: Experiments, evaluation, and results from analysis of clustering approach, model, and output.
+
         /scripts: Python scripts for compiling and building the back-end database.
             * build_market_maven_db.py: Builds the back-end database that is stores all of data required by the application.
             * build_geojson_counties.py: Builds the U.S. county geoJSON file that is required by the choropleth map displayed on the map page.
