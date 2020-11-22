@@ -40,7 +40,7 @@ Also, SQLite3 (https://www.sqlite.org) powers the back-end database.
 
 This application's directory structure and contents are described below for easy reference.
 
-    /root: Root directory of the application. All commands on the command line (or terminal) should be executed from this directory.
+    /CODE: Root directory of the application. All commands on the command line (or terminal) should be executed from this directory.
 
         /assets: Assets (e.g., geoJSON files, back-end database, etc.) required for the application to successfully run.
             * fips-states.json: Simple dictionary that translates U.S. state FIPS codes to U.S. state names. Used by the map page for formatting purposes.
@@ -51,7 +51,7 @@ This application's directory structure and contents are described below for easy
         
         /data: Data files used to build the applications back-end database ("/assets/market_maven.sqlite") and geoJSON files.
             > IMPORTANT: Some of the data required to build the back-end database are available in this directory. The remaining data are pulled on-demand from API calls by the scripts in the "/scripts" directory.
-	        * geojson-counties-template.json: U.S. county geoJSON template file for choropleth map.
+	    * geojson-counties-template.json: U.S. county geoJSON template file for choropleth map.
             * list1_2020.xls: List of U.S. state and counties and identifier codes (e.g., CBSA, FIPS, etc.). Derived from U.S. Census.
             * PctUrbanRural_County.xls: Urban vs. rural population demographics by U.S. county. Derived from U.S. Census.
             * avg_annual_temp.csv: Average annual temperature data by U.S. state. Derived from https://www.currentresults.com.
@@ -60,7 +60,7 @@ This application's directory structure and contents are described below for easy
             * avg_summer_temp.csv: Average Summer temperature data by U.S. state. Derived from https://www.currentresults.com.
             * avg_sunny_days.csv: Average number of sunny days by U.s. state. Derived from https://www.currentresults.com.
             * avg_winter_temp.csv: Average Winter temperature data by U.S. state. Derived from https://www.currentresults.com.
-            * countypres_2000-2016.csv: Presidential election vote totals by political party ("political lean") by U.S. county. Derived from U.S. Census.
+            * countypres_2000-2016.csv: Presidential election vote totals by political party ("political lean") by U.S. county. Derived from MIT Election Data and Science Lab.
             * Data Dictionary - external.csv: List of all data used by Market Maven and their sources. Derived by the Market Maven project team.
             * neighbors.csv: Top 5 similar counties based on Market Maven's clustering algorithm. Derived by the "build_similar_counties_data.py" in the "scripts" directory.
             * all-geocodes-v2019.csv:  List of U.S. state and counties and identifier codes (e.g., CBSA, FIPS, etc.). Derived from U.S. Census.
